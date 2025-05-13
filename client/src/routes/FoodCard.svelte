@@ -1,4 +1,4 @@
-script lang="ts">
+<script lang="ts">
     import Icon from "@iconify/svelte";
     import type { Meal } from '$lib/types';
     let { meal }: { meal: Meal } = $props();
